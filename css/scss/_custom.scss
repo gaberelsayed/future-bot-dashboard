@@ -1,0 +1,370 @@
+.Hero {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-top: 300px;
+    padding-bottom: 300px
+}
+
+@media(max-width: 640px) {
+    .Hero {
+        padding-top:150px;
+        padding-bottom: 150px
+    }
+}
+
+.Select-input {
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.Select-value-label {
+  display: block !important;
+}
+
+.Select-value {
+  position: relative !important;
+}
+
+.Select-menu-outer {
+  width: auto;
+  min-width: 100%;
+}
+
+.Select-option {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.Select-control {
+  min-width: 100%;
+  width: auto;
+}
+
+.Hero h1 {
+    text-transform: none;
+    font-size: 38px;
+    line-height: 1.3;
+    text-align: center
+}
+
+@media(max-width: 640px) {
+    .Hero h1 {
+        font-size:35px
+    }
+}
+
+.Hero p {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    text-align: center;
+    line-height: 1.8
+}
+
+@media(max-width: 640px) {
+    .Hero p {
+        font-size:16px
+    }
+}
+
+.Hero .HeroInner {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0 50px;
+    max-width: 100%;
+    font-family: 'Blinker', sans-serif
+
+}
+
+.Hero .HeroInner .HeroButtons {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px
+}
+
+@media(max-width: 800px) {
+    .Hero .HeroInner .HeroButtons {
+        -webkit-box-orient:vertical;
+        -moz-box-orient: vertical;
+        -o-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.Hero .HeroInner .HeroButtons .HeroButtonWrapper {
+    width: 300px
+}
+
+.Hero .HeroInner .HeroButtons .HeroButtonWrapper:first-of-type {
+    margin-right: 15px
+}
+
+@media(max-width: 800px) {
+    .Hero .HeroInner .HeroButtons .HeroButtonWrapper:first-of-type {
+        margin-right: 0;
+        margin-bottom: 15px
+    }
+}
+
+.Section {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.Section:after {
+    content: "";
+    display: block;
+    width: 50%;
+    margin: 150px 0
+}
+
+@media(max-width: 800px) {
+    .Section:after {
+        border-bottom:1px solid rgba(255,255,255,.1)
+    }
+}
+
+.Section .SectionInner {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    max-width: 1440px;
+    -webkit-box-direction: reverse;
+    -moz-box-direction: reverse;
+    -o-box-direction: reverse;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -o-box-orient: horizontal;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse
+}
+
+@media(max-width: 800px) {
+    .Section .SectionInner {
+        max-width:750px;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -o-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.Section .SectionInner .SectionText {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -o-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    padding-right: 100px
+}
+
+@media(max-width: 800px) {
+    .Section .SectionInner .SectionText {
+        -webkit-box-align:center;
+        -moz-box-align: center;
+        -o-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 55px
+    }
+}
+
+.Section .SectionInner .SectionText h1 {
+    font-size: 26px;
+    text-transform: none;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-top: 0;
+    padding-top: 0
+}
+
+@media(max-width: 800px) {
+    .Section .SectionInner .SectionText h1 {
+        text-align:center
+    }
+}
+
+.Section .SectionInner .SectionText p {
+    font-size: 19px;
+    color: #969899;
+    line-height: 1.8em;
+    margin-top: 5px
+}
+
+@media(max-width: 800px) {
+    .Section .SectionInner .SectionText p {
+        text-align:center;
+        padding: 0
+    }
+}
+
+.Section .SectionInner .SectionImg {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -o-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -o-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+.Section .SectionInner .SectionImg img {
+    width: 100%
+}
+
+.Section:nth-of-type(even) .SectionInner {
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -o-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+@media(max-width: 800px) {
+    .Section:nth-of-type(even) .SectionInner {
+        -webkit-box-orient:vertical;
+        -moz-box-orient: vertical;
+        -o-box-orient: vertical;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.Section:nth-of-type(even) .SectionText {
+    padding-left: 100px;
+    padding-right: 0
+}
+
+@media(max-width: 800px) {
+    .Section:nth-of-type(even) .SectionText {
+        padding:0
+    }
+
+    .Section:nth-of-type(even) .SectionText p {
+        text-align: center
+    }
+}
